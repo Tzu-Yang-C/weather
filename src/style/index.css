@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('/dawn2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    background-color:transparent;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #180541;
+}
+
+.cityselect{
+    font-size: 2vw;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+.label{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.label select{
+    font-size: 45px;
+    width: 500px;
+    background-color:transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(5, 5, 92);
+    border: 3px solid;
+    padding: 5px;
+    height: 70px;
+}
+.info{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    justify-content: center;
+
+    
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    gap: 15px;
+}
